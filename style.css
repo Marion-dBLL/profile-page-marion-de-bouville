@@ -16,12 +16,12 @@ h1{
     font-family: syncopate;
     font-weight:bold;
     font-size: 28px;
-    color: #DC290E;
+    color: #d54814;
 }
 
 
 h2{
-    color:#DC290E;
+    color:#d54814;
     font-family: syncopate ;
     padding-bottom: 15px;
 }
@@ -144,7 +144,7 @@ padding-top: 25px;
 
 #btn-orange{
     color:white;
-    background-color: #DC290E; 
+    background-color: #d54814; 
     padding: 12px 35px ; 
     border-radius:4px;
     font-weight: bold;
@@ -285,7 +285,7 @@ height: 80px;
 }
 
 #txt-lien{
-color: #DC290E; 
+color: #d54814; 
 font-size: 18px;   
 }
 
@@ -302,7 +302,7 @@ font-size: 18px;
     }
   
   
-  @media (max-width: 820px) {
+  @media (max-width: 860px) {
     .container {
       width: 680px;
     }
