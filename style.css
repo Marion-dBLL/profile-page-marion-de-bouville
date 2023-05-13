@@ -16,12 +16,12 @@ h1{
     font-family: syncopate;
     font-weight:bold;
     font-size: 28px;
-    color: #DA8919;
+    color: #F76300;
 }
 
 
 h2{
-    color:#DA8919;
+    color:#F76300;
     font-family: syncopate ;
     padding-bottom: 15px;
 }
@@ -144,7 +144,7 @@ padding-top: 25px;
 
 #btn-orange{
     color:white;
-    background-color: #DA8919; 
+    background-color: #F76300; 
     padding: 12px 35px ; 
     border-radius:4px;
     font-weight: bold;
@@ -226,7 +226,7 @@ height: 80px;
   }
 
   .lign-orange{
-    background-color: #DA8919;
+    background-color: #EC6C1F;
     width: 250px;
     padding-top: 3px;
     margin: auto auto;
@@ -255,7 +255,7 @@ height: 80px;
     /* 4rd card - Mes expériences */
 
 .txt-orange{
-  color: #DA8919;
+  color:#F76300;
 }
 
 .list-sans-bp-expe{
@@ -285,7 +285,7 @@ height: 80px;
 }
 
 #txt-lien{
-color: #DA8919; 
+color: #F76300; 
 font-size: 18px;   
 }
 
