@@ -144,7 +144,7 @@ padding-top: 25px;
 
 #btn-orange{
     color:white;
-    background-color: #d54814; 
+    background-color: #cc6039; 
     padding: 12px 35px ; 
     border-radius:4px;
     font-weight: bold;
@@ -297,12 +297,12 @@ font-size: 18px;
       width: 900px;
     }
     .intro-gif {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
     }
     }
   
   
-  @media (max-width: 860px) {
+  @media (max-width: 920px) {
     .container {
       width: 680px;
     }
