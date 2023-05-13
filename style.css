@@ -144,7 +144,7 @@ padding-top: 25px;
 
 #btn-orange{
     color:white;
-    background-color: #cc6039; 
+    background-color: #DA8919; 
     padding: 12px 35px ; 
     border-radius:4px;
     font-weight: bold;
@@ -226,7 +226,7 @@ height: 80px;
   }
 
   .lign-orange{
-    background-color: #ab3c24;
+    background-color: #DA8919;
     width: 250px;
     padding-top: 3px;
     margin: auto auto;
@@ -255,7 +255,7 @@ height: 80px;
     /* 4rd card - Mes expériences */
 
 .txt-orange{
-  color: #DC290E;
+  color: #DA8919;
 }
 
 .list-sans-bp-expe{
@@ -285,7 +285,7 @@ height: 80px;
 }
 
 #txt-lien{
-color: #d54814; 
+color: #DA8919; 
 font-size: 18px;   
 }
 
@@ -294,7 +294,7 @@ font-size: 18px;
 
 @media (max-width: 960px) {
     .container {
-      width: 900px;
+      width: 800px;
     }
     .intro-gif {
       grid-template-columns: 1fr;
