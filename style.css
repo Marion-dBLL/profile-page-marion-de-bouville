@@ -47,7 +47,7 @@ margin-top: 44px;
 }
 
 .white-cards { 
-    margin: 35px;
+    margin-bottom: 35px;
     padding: 35px;
     background-color: white;
     text-align: center;
@@ -68,11 +68,22 @@ margin-top: 44px;
 .list-sans-bp{
     list-style-type: none;
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: -41px;
 }
 
 .list-sans-bp li{
-    padding-bottom: 7px;
+    padding-bottom: 27px;
+}
+
+.list-sans-bp-intro-soft-skils {
+  list-style-type: none;
+  text-align: left;
+  margin-bottom: -41px;
+  padding-left: 12px;
+}
+
+.list-sans-bp-intro-soft-skils li{
+  padding-bottom: 9px;
 }
 
 /*1st Grid - INTRO et GIF*/
@@ -121,6 +132,7 @@ padding-top: 25px;
 
 .cards-inline-2fr-1line{
     display:grid ;
+    grid-gap: 15px;
     grid-template-columns: auto 2px 220px;
     text-align: left;
     margin-bottom: 20px;
@@ -165,7 +177,6 @@ margin-bottom: 38px;
 }
 
 
-
 .cards-inline-3fr{
 display:grid ;
 grid-template-columns: 1fr 1fr 1fr;
@@ -208,22 +219,37 @@ height: 80px;
     border-radius: 4px;
   }
 
-/* 3rd card - En quelques mots */ 
+/* 3rd card - Me découvrir */ 
   
-#en-quelques-mots{
-    height: 490px;
+#me-decouvrir{
+    height: 1156px;
+  }
+
+  .lign-orange{
+    background-color: #ab3c24;
+    width: 250px;
+    padding-top: 3px;
+    margin: auto auto;
+    margin-bottom: 50px;
+    margin-top: 49px;
+  }
+
+  .center-text{
+    text-align: center;
+    padding-bottom: 10px;
   }
 
   .cards-inline-2fr-1line-eqm{
     display:grid ;
-    grid-template-columns: auto 2px 220px;
+    grid-gap: 12px;
+    grid-template-columns: auto 2px 250px;
     text-align: left;
     margin-bottom: 20px;
   }
 
   #lign-black-eqm{
     background-color: black;
-    height: 310px;
+    height: 634px;
     }
 
     /* 4rd card - Mes expériences */
