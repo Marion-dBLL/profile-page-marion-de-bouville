@@ -16,12 +16,12 @@ h1{
     font-family: syncopate;
     font-weight:bold;
     font-size: 28px;
-    color: #d54814;
+    color: #DA8919;
 }
 
 
 h2{
-    color:#d54814;
+    color:#DA8919;
     font-family: syncopate ;
     padding-bottom: 15px;
 }
@@ -292,30 +292,33 @@ font-size: 18px;
 
 /* Breaking points */
 
-@media (max-width: 960px) {
+@media (max-width: 1280px) {
     .container {
       width: 800px;
     }
     .intro-gif {
+      display: grid;
       grid-template-columns: 1fr;
     }
     }
   
   
-  @media (max-width: 920px) {
+  @media (max-width: 960px) {
     .container {
       width: 680px;
     }
     .intro-gif {
+      display: grid;
       grid-template-columns: 1fr;
     }
   }
   
-  @media (max-width: 540px) {
+  @media (max-width: 500px) {
     .container {
       width: 480px;
     }
     .intro-gif {
+      display: grid;
       grid-template-columns: 1fr;
     }
   }
