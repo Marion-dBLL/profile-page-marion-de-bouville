@@ -1,0 +1,296 @@
+/* Write some CSS below : */
+
+/* 1. Global design first : Body, Headers, Colors, Fonts, Font size, Font weight */
+
+body{
+    font-family:Rajdhani;
+    font-size: 18
+    px;
+    text-align: center;
+    color: rgb(50, 50, 50);
+    background: #FFFBF7;
+}
+
+
+h1{
+    font-family: syncopate;
+    font-weight:bold;
+    font-size: 28px;
+    color: #EA4335;
+}
+
+
+h2{
+    color:#EA4335;
+    font-family: syncopate ;
+    padding-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+}   
+
+
+
+
+/* 2. Appearance of html elements : Images, Links (buttons), Divs */
+
+.container {
+    width: 700px;
+    margin: auto auto;
+}
+
+#gif{
+width: 250px;
+margin-left: 10px;
+margin-top: 44px;
+}
+
+.white-cards { 
+    margin: 35px;
+    padding: 35px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(188, 188, 188, 0.5);
+    border-radius: 10px;
+}
+
+
+.list-avc-bp{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.list-avc-bp li{
+    padding-bottom: 7px;
+}
+
+.list-sans-bp{
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.list-sans-bp li{
+    padding-bottom: 7px;
+}
+
+/*1st Grid - INTRO et GIF*/
+
+.intro-gif{
+    display:grid ;
+    grid-template-columns: 385px 196px;
+    grid-gap: 16px ;
+    margin-bottom: 42px;
+}
+
+/*1st card - INTRO*/
+
+#marion-photo{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(114, 114, 114, 0.5);
+    ;
+}
+
+.cards-inline-2fr-name{
+    display:grid ;
+    grid-template-columns: 110px auto;
+    grid-gap: 16px;
+    margin-bottom: 40px;
+}
+
+#Txt-pres{
+    padding-top: 50px;
+}
+
+#txt-strong{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+#lign-black{
+background-color: black;
+height: 190px;
+padding-top: 25px;
+}
+
+
+
+.cards-inline-2fr-1line{
+    display:grid ;
+    grid-template-columns: auto 2px 220px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+ #intro{
+   margin-bottom: -9px; 
+ }
+
+#btn-orange{
+    color:white;
+    background-color: #EA4335; 
+    padding: 12px 35px ; 
+    border-radius:4px;
+    font-weight: bold;
+}
+
+
+
+/* 2nd card - Btn Navigation */ 
+
+#btn-nav{
+list-style: none;
+padding: 40px;
+background-color: rgba(250, 250, 250, 0,7);
+text-align: center;
+}
+
+
+.cards-inline-2fr{
+display:grid ;
+grid-template-columns: 1fr 1fr;
+grid-gap: 10px;
+margin-bottom: 38px;
+}
+
+.btn-inline-2fr{
+    display:grid ;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    height: 40px;
+}
+
+
+
+.cards-inline-3fr{
+display:grid ;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 10px;
+padding-top: 10px;
+padding-bottom: 38px;
+}
+
+.btn-inline-3fr{
+    display:grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    height: 40px;   
+}
+
+.btn-inline{
+text-decoration:none; 
+color:rgb(36, 36, 36);
+background:  rgba(255, 255, 255, 0.8);
+border-radius:4px;
+font-weight: bold;
+font-size: 15px;
+text-align: center;
+padding: 10px;
+}
+
+.img-cads-inline{
+padding-bottom: -55px;
+}
+
+.card-invisible{
+height: 80px;
+}
+
+
+.card-invisible img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+/* 3rd card - En quelques mots */ 
+  
+#en-quelques-mots{
+    height: 490px;
+  }
+
+  .cards-inline-2fr-1line-eqm{
+    display:grid ;
+    grid-template-columns: auto 2px 220px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  #lign-black-eqm{
+    background-color: black;
+    height: 310px;
+    }
+
+    /* 4rd card - Mes expériences */
+
+.txt-orange{
+  color: #EA4335;
+}
+
+.list-sans-bp-expe{
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.list-sans-bp-expe li{
+    padding-bottom: 20px;
+}
+
+.footer{
+    border-style: none;
+}
+
+.footer-lien{
+   background-image:url(https://media.giphy.com/media/Ko1cIMzLoqRM4t8Xbz/giphy.gif);
+   background-size: cover ;
+   display: block;
+   border-radius: 5px;
+   width: 238px;
+   padding-block: 70px;
+   font-size: 22px;
+   margin: auto auto;
+   margin-top: 10px;
+}
+
+#txt-lien{
+color: #EA4335; 
+font-size: 18px;   
+}
+
+
+/* Breaking points */
+
+@media (max-width: 960px) {
+    .container {
+      width: 900px;
+    }
+    .intro-gif {
+      grid-template-columns: 1fr 1fr;
+    }
+    }
+  
+  
+  @media (max-width: 720px) {
+    .container {
+      width: 680px;
+    }
+    .intro-gif {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    .container {
+      width: 480px;
+    }
+    .intro-gif {
+      grid-template-columns: 1fr;
+    }
+  }
+  
